@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2><a href="index.html">Fourth Angel Loudcry SDA Ministry</a></h2>
+    </header>
+    <section class="prayer-form-area">
+        <h3 class="section-title">Submit Your <span>Prayer Request</span></h3>
+        <form action="submit-prayer.php" method="POST" class="prayer-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="prayer">Your Prayer Request:</label>
+            <textarea id="prayer" name="prayer" rows="5" required></textarea>
+            
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+    <footer>
+        <p>All Right Reserved by Fourth Angel Loudcry SDA Ministry</p>
+    </footer>
+</body>
+</html>
